@@ -26,7 +26,7 @@ function loadFiles( file, cb ) {
             load: function () {
                 cb && cb();
             }
-        })
+        });
 
         document.body.append(ele)
     }else {
