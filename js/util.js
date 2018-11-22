@@ -4,6 +4,7 @@
  * @param cb 加载后的回调
  * @returns {loadFiles}
  */
+console.log(111)
 function loadFiles( file, cb ) {
     var isCss = /\.css$/,
         isJs = /\.js$/,
