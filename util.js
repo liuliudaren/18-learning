@@ -53,7 +53,6 @@ function crateElement( eleName, param ) {
             }
         }
     };
-
     return ele;
 }
 
