@@ -27,6 +27,7 @@ function loadFiles( file, cb ) {
                 cb && cb();
             }
         })
+
         document.body.append(ele)
     }else {
         throw new Error(file + "是无法识别的类型的外部文件");
