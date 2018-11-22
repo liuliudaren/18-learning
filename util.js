@@ -32,6 +32,7 @@ function loadFiles( file, cb ) {
     }else {
         throw new Error(file + "是无法识别的类型的外部文件");
     }
+
     return this
 }
 
