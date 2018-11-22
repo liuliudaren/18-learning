@@ -16,7 +16,8 @@ function loadFiles( file, cb ) {
             load: function () {
                 cb && cb();
             }
-        })
+
+        });
         document.head.appendChild(ele)
     } else if ( isJs.test(file)) {
         var ele = crateElement("script", {
